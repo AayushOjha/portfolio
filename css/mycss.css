@@ -1,0 +1,495 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat',sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* reponsive classes start */
+
+.col-1
+{
+    width: 8.33% ;
+}
+
+.col-2
+{
+    width: 16.66% ;
+}
+
+.col-3
+{
+    width: 24.99% ;
+}
+
+.col-4
+{
+    width: 33.32% ;
+}
+
+.col-5
+{
+    width: 41.6%;
+}
+
+.col-7
+{
+    width: 58.3%;
+}
+
+.col-6
+{
+    width: 50% ;
+}
+
+.col-8
+{
+    width: 66.66% ;
+}
+.col-10
+{
+    width: 83.33% ;
+}
+
+.col-11
+{
+    width: 91.63% ;
+}
+
+.col-12
+{
+    width: 100% ;
+}
+
+/* reponsive classes ends */
+
+body
+{
+    background-color: white;
+}
+
+.container
+{
+  display: flex;
+  background-color: #003443;
+  height: 10vh;
+  overflow: hidden;
+}
+
+.inc1
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.inc2 
+{
+  display: flex;
+  align-items: center;
+}
+
+.menu
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+ 
+.mobnavc
+{
+    display: none;
+}
+
+
+.box
+{
+    border: 1px solid black;
+}
+
+.nav-tab
+{
+    color: white;
+    font-size : 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    /* margin-right: 10px; */
+    padding: 2px;
+}
+
+.bbox
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.bbox:hover
+{
+    background-color: white;
+    box-shadow: 3px 3px black;
+}
+
+.bbox img
+{
+    max-width: 95%;
+}
+
+.nav-tab:hover
+{   
+    background-color: #1B9CFC;
+    box-shadow: 2px 3px black;
+}
+
+.handburger
+{
+   display: none;
+}
+
+.lines
+{
+    width: 40px;
+    height: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+/* nav ends */
+/* jumbo starts */
+
+.jumbo
+{
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.threeNav
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.threeNavItem
+{
+    position: relative;
+    height: 22vh;
+    width: 20%;
+}
+
+.threeNavItem>img
+{
+    max-width:90%;
+    max-height:80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.threeNavItem>h1
+{
+    display: none;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+
+  .threeNavItem:hover .overlay   {
+    width: 100%;
+  }
+
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .imgbox
+  {
+      height: 70vh;
+      background-image: url(../imgs/deskpro.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-bottom: 30px;
+  }
+
+    /* jumbo ends */
+
+    /* Experience starts */
+
+  .content01
+  {
+      height: 100vh;
+      background-color: #003443;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      padding: 50px;
+      overflow: hidden;
+  }
+
+  .experienceBox
+  {
+      text-align: center;
+      color: white;
+      padding: 0 100px;
+      margin-bottom: 80px;
+  }
+
+  .experienceBox h1
+  {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    margin-bottom: 30px;
+  }
+
+  .experienceBox p
+  {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    word-spacing: 10px;
+    line-height: 30px;
+  }
+
+
+  .galli h3
+  {
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+    margin-bottom: 30px;
+    color: black;
+    margin-left: 30px;
+  }
+
+  .item img
+  {
+        max-width: 100%;
+  }
+
+ .itemn img
+  {
+    max-width: 100%;
+  }
+
+  .itemn
+  {
+      background-color: #003443;
+      margin: 20px auto;
+      width:240px;
+      padding: 15px;
+      border-radius: 10px;
+  }
+
+.row
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.item
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.technologyBox
+{
+    background-color: white;
+    border-radius: 20px;
+    float: left;
+    height: 500px;
+}
+
+.compiniesBox
+{
+    background-color: white;
+    border-radius: 20px;
+    float: right;
+    height: 500px;
+}
+
+.compiniesBox h4
+{
+    margin-left: 30px;
+    color: brown;
+}
+
+ /* Experience ends */
+ /* reach out starts */
+
+ .projectContainer
+ {
+     height: auto;
+     padding: 50px 50px;
+ }
+
+.git
+{
+    background-color: rgb(208, 208, 236);
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #003443;
+    /* padding: 50px 0; */
+}
+
+.maili img
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.git h1
+{
+    font-size: 45px;
+
+}
+
+.maildesc
+{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    word-spacing: 10px;
+    line-height: 30px;
+    color: black;
+}
+
+.mailbtn
+{
+    border: 2px solid #003443;
+    font-size: 40px;
+    padding: 15px;
+    background-color: transparent;
+    color: #003443;
+
+}
+
+
+
+.probox
+{
+    display: flex;
+    justify-content: space-around;
+ }
+ .projectpanel
+ {
+    background-color: #003443;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    border-radius: 50px;
+    padding: 10px 20px;
+ }
+
+ .pross img
+ {
+    max-width: 100%;
+    max-height: 100%;
+ }
+
+ .projectContainer h1
+ {
+    margin-bottom: 30px;
+    color: #003443;
+    text-decoration: dashed;
+ }
+
+
+ .projectpanel h1
+ {
+     color: white;
+     font-family: 'Montserrat',sans-serif;
+ }
+
+ .projectpanel:hover
+ {
+     opacity: 0.4;
+ }
+
+
+
+  /* reach out ends */
+  /* footer starts here */
+  
+
+  .footer
+  {
+      height: 25vh;
+      background-color: #003443;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+
+  }
+
+  .flogo
+ {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .flogo img
+ {
+     max-height: 90%;
+ }
+
+  .footer h2
+  {
+      font-size: 15px;
+  }
+
+  .social
+ {
+      display: flex;
+      justify-content: space-between;  
+ }
+
+  .social img
+  {
+    height: 40px;
+    width: auto;
+  }
+
+  /* footer ends here */
+
+ 
+

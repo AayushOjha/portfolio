@@ -1,0 +1,230 @@
+/* nav bar */
+.menu
+{
+    display: none;
+}
+
+.mobnavc
+{
+    display: none;
+}
+
+.mobnav
+{
+    display: block;
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.mob-tab
+{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size : 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 12px 0;
+    border-bottom: 1px solid gainsboro;
+    border-top: 1px solid gainsboro;
+}
+
+.active
+{
+    background-color: lightcoral;
+    padding: 8px;
+}
+
+.mob-tab:hover
+{
+    background-color: #003443;
+    border: 0;
+}
+
+.inc1 , .bbox
+{
+    width: 80%;
+}
+
+.inc2
+{
+    justify-content: space-around;
+}
+
+.handburger
+{
+    display: block;
+}
+
+/* jumbo */
+
+.jumbo
+{
+    height: auto;
+}
+
+.imgbox
+  {
+      width: 80%;
+      background-image: url(../imgs/mobpro.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-bottom: 30px;
+      background-size: contain;
+      margin-top: 10px;    
+  }
+
+.threeNav
+  {
+      height: 130vh;
+  }
+
+.threeNavItem
+ {
+    position: relative;
+    height: 30vh;
+    width: 70%;
+    padding: 10px;
+    border: 2px dashed gray;
+    box-shadow: 12px 0 12px 0 black;
+ }
+
+ .threeNavItem>h1
+ {
+     display: block;
+    color:  #003443;
+     text-align: center;
+ }
+
+ /* Experience */
+
+ .content01
+  {
+      height: auto;
+      align-items: center;
+      padding: 30px;
+  }
+
+  .galli
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .experienceBox 
+  {
+        padding: 0 5px; 
+        width: 90%; 
+        margin-bottom: 50px;
+  }
+
+  .experienceBox h1
+  {
+     margin-bottom: 18px;
+     padding-bottom: 5px;
+     text-align: start;
+     border-bottom: 1px solid white; 
+  }
+
+  .experienceBox p
+  {
+    text-align: justify;
+    font-family: 'Roboto Slab', serif;
+    line-height: 25px;
+  }
+
+  .technologyBox
+{
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    margin-bottom: 50px;
+
+}
+
+.compiniesBox
+{
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px;
+    height: auto;
+}
+
+.galli h3
+{
+    margin-left: 5px;
+    font-size: 1.3em;
+}
+
+
+.projectContainer
+{
+    height: auto;
+    padding: 50px 15px;
+}
+
+.probox
+ {
+    flex-direction: column;
+ }
+
+ .projectpanel
+ {
+    background-color: #003443;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    border-radius: 50px;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+ }
+
+ /* reach out */
+
+ .maildesc
+{
+    width: 95%;
+}
+
+.git h1
+{
+    font-size: 30px;
+}
+
+.maili
+{
+    width: 20%;
+}
+
+.mailbtn
+{
+    font-size: 20px;
+    padding: 8px 25px;
+}
+
+/* footer */
+
+.social
+{
+     width: 60%;
+     display: flex;
+     justify-content: space-between;  
+     margin-bottom: 5px;
+}
+
+ .social img
+ {
+   height: 25px;
+   width: auto;
+ }
