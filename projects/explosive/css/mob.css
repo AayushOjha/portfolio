@@ -1,0 +1,292 @@
+/* nav bar */
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.menu
+{
+    display: none;
+}
+
+.mobnavc
+{
+    display: none;
+}
+
+.mobnav
+{
+    display: block;
+    background-color: #d35400;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.mob-tab
+{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size : 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 12px 0;
+    border-bottom: 1px solid gainsboro;
+    border-top: 1px solid gainsboro;
+}
+
+.active
+{
+    background-color: lightcoral;
+    padding: 8px;
+}
+
+.mob-tab:hover
+{
+    background-color: #003443;
+    border: 0;
+}
+
+.inc1 , .bbox
+{
+    width: 60%;
+}
+
+.inc2
+{
+    justify-content: space-around;
+}
+
+.handburger
+{
+    display: block;
+}
+
+.container
+{
+    width: 100%;
+}
+
+/* jumbo */
+
+.jumbo
+{
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.bodybox
+{
+    flex-direction: column;
+}
+
+.textbox1
+{
+    width: 50%;
+    align-items: flex-end;
+
+}
+
+.textbox2
+{
+    width: 75%;
+    align-items: flex-start;
+    border-left: 0;
+    border-top: 10px solid white;
+    transform: skew(0deg, 0deg);
+
+}
+
+.textbox1 img
+{
+    width: 150px;
+    height: 95px;
+    transform: translateX(300px);
+    animation: move0 6s infinite;
+}
+
+.onep
+{
+    font-size: 15px;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.twop
+{
+    font-size: 15px;
+    font-weight: 700;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
+ /* Experience */
+
+ .content01
+  {
+      height: auto;
+      align-items: center;
+      padding: 5px;
+  }
+
+.experienceBox
+{
+    width: 97%;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+}
+.supplybox
+{
+
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    height: auto;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.supplyb1
+{
+    width: 90%;
+}
+.supplyb2
+{
+    width: 100%;
+    min-height: 300px;
+    padding: 10px;
+}
+
+.supplyb2 p
+  {
+      font-family: sans-serif;
+      padding-left: 5px;
+      padding-right: 5px;
+  }
+
+  .galli
+  {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .sbox
+  { 
+    width: 22%;
+    min-width: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 20px 20px 10px grey;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 0;
+  }
+ 
+/* product */
+
+.itembox
+{
+    padding: 30px 0;
+}
+
+.proimg img 
+{
+    width: 85%;
+}
+
+.prodesc
+ {
+    width: 90%;
+ }
+
+ .listing2 {
+     width: 91.63%;
+    height: auto;
+    border: 5px dashed white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+/* testimonial */
+
+.testimonial
+{
+    padding: 55px 10px 25px 10px;
+}
+
+ /* reach out */
+
+
+.git h1
+{
+    font-size: 30px;
+}
+
+.maili
+{
+    width: 40%;
+}
+
+.lbox
+{
+    width: 83%;
+    border-right: 0;
+    border-bottom: 3px solid black;
+    padding: 20px 30px 30px 10px ;
+    margin-bottom: 50px;
+}
+
+/* footer */
+
+.flogo
+{
+    margin-bottom: 20px;
+}
+
+.social
+{
+     width: 60%;
+     display: flex;
+     flex-direction: column;
+     align-self: flex-start;
+     justify-content: space-between;  
+     margin-bottom: 25px;
+     padding-left: 10px;
+}
+
+
+
+ .social img
+ {
+   height: 25px;
+   width: auto;
+ }
+
+ .buind
+ {
+    margin-bottom: 10px;
+ }

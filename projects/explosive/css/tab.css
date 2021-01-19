@@ -1,0 +1,212 @@
+/* nav bar */
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.menu
+{
+    display: none;
+}
+
+.inc1 
+{
+    width: 60%;
+}
+
+.bbox
+{
+    width: 40%;
+}
+
+.inc2
+{
+    justify-content: space-around;
+}
+
+.handburger
+{
+    display: block;
+}
+
+.container
+{
+    width: 100%;
+}
+
+
+.mobnav
+{
+    display: block;
+    background-color: #d35400;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.mob-tab
+{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size : 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 12px 0;
+    border-bottom: 1px solid gainsboro;
+    border-top: 1px solid gainsboro;
+}
+
+.active
+{
+    background-color: black;
+    padding: 8px;
+}
+
+/* jumbo */
+
+.jumbo
+{
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.bodybox
+{
+    flex-direction: column;
+}
+
+.textbox1
+{
+    width: 50%;
+    align-items: flex-end;
+
+}
+
+.textbox2
+{
+    width: 75%;
+    align-items: flex-start;
+    border-left: 0;
+    border-top: 20px solid white;
+    transform: skew(0deg, 0deg);
+
+}
+
+/* exprience */
+
+.content01
+{
+    padding: 10px;
+}
+
+.experienceBox
+{
+    width: 97%;
+    padding: 10px 50px;
+    margin-bottom: 40px;
+}
+.supplybox
+{
+
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: auto;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.supplyb1
+{
+    width: 80%;
+}
+.supplyb2
+{
+    width: 100%;
+    min-height: 300px;
+    padding: 10px;
+}
+
+.supplyb2 p
+  {
+      font-family: sans-serif;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+
+  /* product */
+
+  .listing2
+ {
+     width: 91.5%;
+     height: 750px;
+     justify-content: space-around;
+ }
+
+  .proimg
+  {
+      margin-bottom: 0;
+  }
+
+  .proimg2
+ {
+    overflow: hidden;
+    height: auto;
+ }
+
+  .proimg img 
+  {
+     width: 80%;
+  }
+
+  .prodesc
+  {
+     width: 80%;
+     margin-bottom: 10px;
+  }
+  
+  .aftesti 
+  {
+      margin-bottom: 30px;
+  }
+/* testimonial */
+
+.maili
+{
+    width: 30%;
+}
+
+.maili img
+{
+    margin-bottom: 25px;
+}
+
+.lbox
+{
+    width: 43%;
+    border-bottom: 3px solid black;
+    padding: 20px 30px 30px 10px ;
+    margin-bottom: 50px;
+}
+
+/* footer */
+
+.social {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.buind
+{
+    margin-bottom: 15px;
+}
